@@ -5,7 +5,7 @@ import axios from 'axios';
 import BookCard from './BookCard';
 
 const MainContext = () => {
-    const { searchQuery, setsearchQuery, selectedCategory, setselectedCategory, minPrice, setMinPrice, maxPrice, setMaxPrice, keyword, setKeyword } = useFilter()
+    const { searchQuery, selectedCategory, minPrice, maxPrice, keyword,  } = useFilter()
 
     const [products, setProducts] = useState<any[]>([]);
     const [filter, setFilter] = useState('all');

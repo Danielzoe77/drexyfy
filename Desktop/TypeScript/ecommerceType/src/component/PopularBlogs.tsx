@@ -1,5 +1,5 @@
 import { MessageCircle, ThumbsUpIcon } from 'lucide-react'
-import React from 'react'
+
 
 const PopularBlogs = () => {
 const blogs = [
